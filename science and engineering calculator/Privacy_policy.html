@@ -1,94 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · Science &amp; Engineering Calculator</title>
+<title>Privacy Policy — Scientific &amp; Engineering Calculator</title>
 <style>
-  :root {
+  :root{
     color-scheme: light dark;
-    --bg: #f4f5f6;
-    --card: #fdfdfe;
-    --text: #2b3136;
-    --sub: #646c73;
-    --line: #e0e3e6;
-    --accent: #31566d;
-    --soft: #eaf4fa;
+    --bg:#f6f5f1; --card:#ffffff; --text:#152228; --sub:#5b6b73;
+    --line:#dfe4e6; --accent:#2f6f8f; --code:#eef3f5;
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #1c2229;
-      --card: #252d36;
-      --text: #eaf2f8;
-      --sub: #a7b6c2;
-      --line: #36414c;
-      --accent: #9fc8dc;
-      --soft: #2b3a46;
-    }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14181b; --card:#1c2226; --text:#e7edf0; --sub:#9fb0b8;
+           --line:#2c353a; --accent:#7fc4e6; --code:#232b30; }
   }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    padding: 24px 18px 64px;
-    background: var(--bg);
-    color: var(--text);
-    font: 16px/1.75 system-ui, -apple-system, "Segoe UI", "PingFang SC",
-          "Microsoft YaHei", sans-serif;
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font:16px/1.65 system-ui,-apple-system,"Segoe UI","Noto Sans SC","Noto Sans KR","Noto Sans JP",sans-serif;
+    -webkit-text-size-adjust:100%;
   }
-  main { max-width: 860px; margin: 0 auto; }
-  nav {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding: 10px 0 14px;
-    background: var(--bg);
-    border-bottom: 1px solid var(--line);
-    margin-bottom: 22px;
+  .wrap{max-width:820px;margin:0 auto;padding:24px 18px 64px}
+  nav{
+    position:sticky; top:0; z-index:5; background:var(--bg);
+    padding:10px 0 12px; border-bottom:1px solid var(--line);
+    display:flex; flex-wrap:wrap; gap:8px; justify-content:center;
   }
-  nav a {
-    padding: 6px 10px;
-    border-radius: 999px;
-    background: var(--card);
-    border: 1px solid var(--line);
-    color: var(--accent);
-    text-decoration: none;
-    font-size: .86rem;
+  nav a{
+    font-size:13px; color:var(--accent); text-decoration:none;
+    border:1px solid var(--line); border-radius:999px;
+    padding:4px 10px; background:var(--card);
   }
-  nav a:hover { background: var(--soft); }
-  section { scroll-margin-top: 76px; }
-  h1 { font-size: 1.65rem; line-height: 1.3; margin: 0 0 8px; }
-  h2 { font-size: 1.15rem; margin: 30px 0 8px; }
-  p, li { margin: 8px 0; }
-  ul { padding-left: 22px; }
-  .meta { color: var(--sub); font-size: .9rem; }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    padding: 18px 20px;
-    margin: 16px 0;
+  nav a:hover{ border-color:var(--accent) }
+  header.top{ padding:26px 0 6px }
+  header.top h1{ font-size:26px; margin:0 0 6px; letter-spacing:.2px }
+  header.top p{ margin:0; color:var(--sub); font-size:14px }
+  section{ background:var(--card); border:1px solid var(--line); border-radius:14px;
+           padding:22px 20px; margin-top:22px; scroll-margin-top:64px }
+  section h2{ font-size:20px; margin:0 0 4px }
+  section .meta{ color:var(--sub); font-size:13px; margin:0 0 16px }
+  section p{ margin:0 0 12px }
+  section ol{ margin:0; padding-left:22px }
+  section li{ margin:0 0 12px }
+  code{
+    font:.9em/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;
+    background:var(--code); padding:1px 5px; border-radius:5px;
+    word-break:normal; overflow-wrap:anywhere;
   }
-  code {
-    background: var(--soft);
-    border-radius: 6px;
-    padding: 2px 6px;
-    word-break: break-all;
-    font-size: .9em;
-  }
-  a { color: var(--accent); }
-  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+  .note{ color:var(--sub); font-size:14px; border-left:3px solid var(--accent);
+         padding:2px 0 2px 12px; margin:14px 0 0 }
+  footer{ margin-top:26px; color:var(--sub); font-size:13px; text-align:center }
+  footer a{ color:var(--accent) }
 </style>
 </head>
 <body>
-<main>
+<div class="wrap">
 
-<nav aria-label="Language">
+<nav aria-label="Languages">
   <a href="#en">English</a>
-  <a href="#zh">中文</a>
+  <a href="#zh">简体中文</a>
   <a href="#ko">한국어</a>
   <a href="#es">Español</a>
   <a href="#ja">日本語</a>
@@ -97,364 +68,143 @@
   <a href="#de">Deutsch</a>
 </nav>
 
-<!-- ================= English ================= -->
-<section id="en" lang="en">
+<header class="top">
   <h1>Privacy Policy</h1>
-  <p class="meta">
-    Science &amp; Engineering Calculator (package
-    <code>com.drylu_ian.science_engineering_calculator</code>)<br>
-    Effective date: November 10, 2026
-  </p>
-  <div class="card">
-    <p><strong>Summary.</strong> The app is a local calculator. Formulas,
-    parameters, history, tables and settings stay on your device. A local zip
-    backup can be created. The only third-party component is Google AdMob for
-    banner ads.</p>
-  </div>
-  <h2>1. Local data</h2>
-  <p>Formulas, equations, calculation chains, categories, table contents,
-  parameters, history and settings are stored in the app's private storage
-  (<code>files/scicalc-data.json</code>). We have no server, require no account
-  and do not upload or read your calculation content.</p>
-  <h2>2. Backup and restore</h2>
-  <p>You can create a zip backup from the side menu. The file is written to:</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>The app does not request storage permission, does not upload backups and
-  does not read files from other apps. Backups are deleted with the app when it
-  is uninstalled.</p>
-  <h2>3. Advertising</h2>
-  <p>The app uses the <strong>Google AdMob SDK</strong> to display adaptive
-  banner ads at the bottom of the navigation drawer, home tabs except Favorites,
-  calculation pages and the history page. AdMob may collect the advertising ID
-  and other device identifiers, IP address and approximate location, network
-  state, and ad impression/click data for ad delivery, frequency capping,
-  measurement and fraud prevention. It is not used by us to identify your
-  calculations. See the
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Google Privacy Policy</a>.</p>
-  <p>Where required, consent is requested through Google UMP, including in the
-  EEA. If personalised ads are refused, they are not loaded. You can change or
-  withdraw consent in the in-app ad privacy settings or reset/delete your
-  advertising ID in system settings.</p>
-  <h2>4. Permissions</h2>
-  <p>The app requests only <code>INTERNET</code> and
-  <code>ACCESS_NETWORK_STATE</code> for the ad SDK. It does not request camera,
-  microphone, contacts, location or storage permissions.</p>
-  <h2>5. Sharing, retention and contact</h2>
-  <p>We do not sell your data. Local data remains until you delete it, clear the
-  app's data or uninstall the app. Contact:
-  <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>.</p>
+  <p>Scientific &amp; Engineering Calculator · <code>com.drylu_ian.FormulaKit</code> · Last updated 2026-11-10</p>
+</header>
+
+<!-- ============================= English ============================= -->
+<section id="en" lang="en">
+  <h2>Privacy Policy (English)</h2>
+  <p class="meta">Scientific &amp; Engineering Calculator · Package <code>com.drylu_ian.FormulaKit</code> · Effective 2026-11-10</p>
+  <ol>
+    <li>This app is a local scientific calculator. Formulas, parameters, calculation history, tables and settings are stored only on this device, in the app's private internal storage (<code>scicalc-data.json</code>). No account, sign-in, cloud sync, clipboard access or file import/export of your formulas is provided.</li>
+    <li>To show ads, the app integrates the Google AdMob SDK. The SDK may collect the advertising ID and other device identifiers, IP address and approximate location, network state, and ad impression and click data. This information is used for ad delivery, frequency capping, measurement and fraud prevention, and is not used to identify the content of your calculations.</li>
+    <li>Where consent is required (EEA, UK, Switzerland), Google's UMP consent form appears on first launch. You can review or withdraw consent at any time via <em>Ad privacy settings</em> in the app's side menu. If consent is refused, personalised ads are not loaded; non-personalised ads may still be requested where permitted by law.</li>
+    <li>The app does not upload your formulas, parameters, history, tables or settings.</li>
+    <li><strong>Permissions:</strong> <code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>, used only for ads. The app requests <strong>no storage permission</strong> on any Android version.</li>
+    <li><strong>Storage location and backup:</strong> on Android 10 and later, a backup zip is written to the system <code>Download/SciCalc</code> folder through <code>MediaStore.Downloads</code>, which needs no storage permission. On Android 9 and earlier the file goes to the app-specific external folder <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>. Backup files are never uploaded. On Android 10 and later they remain after the app is uninstalled and can be reopened after reinstalling via <em>Choose file</em> in <em>Backup &amp; restore</em>, using the system file picker (only the file you pick is read). On Android 9 and earlier backups are removed together with the app. You can delete backup files at any time in the system file manager.</li>
+    <li><strong>Deletion:</strong> uninstalling the app deletes all app data stored in private storage. Backup zips are ordinary files under your control and are not deleted by the app unless you remove them.</li>
+    <li><strong>Contact:</strong> <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>. Material changes to this policy will be published on this page with a new effective date.</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= 简体中文 ================= -->
+<!-- ============================= 简体中文 ============================= -->
 <section id="zh" lang="zh-CN">
-  <h1>隐私政策</h1>
-  <p class="meta">
-    科学工程计算器（包名
-    <code>com.drylu_ian.science_engineering_calculator</code>）<br>
-    生效日期：2026 年 11 月 10 日
-  </p>
-  <div class="card">
-    <p><strong>简要说明。</strong>本应用是本地计算器，公式、参数、历史、表格与
-    设置只保存在设备上。可以创建本机 zip 备份。唯一的第三方组件是 Google
-    AdMob，用于展示横幅广告。</p>
-  </div>
-  <h2>1. 本机数据</h2>
-  <p>计算式、方程式、计算链、分类、表格内容、参数、历史与设置保存在应用私有存储
-  （<code>files/scicalc-data.json</code>）。我们没有服务器，不要求账号，也不会上传
-  或读取你的计算内容。</p>
-  <h2>2. 备份与恢复</h2>
-  <p>你可以从侧栏创建 zip 备份，文件写入：</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>应用不申请存储权限，不上传备份，也不读取其它应用的文件。卸载应用时备份
-  一并删除。</p>
-  <h2>3. 广告</h2>
-  <p>应用通过 <strong>Google AdMob SDK</strong> 在侧栏、首页除“收藏”外的选项卡、
-  计算页与历史页底部展示自适应横幅广告。AdMob 可能收集广告 ID 等设备标识符、
-  IP 地址与大致位置、网络状态、广告展示与点击数据，用于广告投放、频次控制、
-  效果测量与防欺诈；我们不会用它识别你的计算内容。详见
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Google 隐私权政策</a>。</p>
-  <p>在需要时通过 Google UMP 请求同意（包括欧洲经济区）。拒绝个性化广告后不会
-  加载个性化广告。可随时在应用内“广告隐私设置”中更改或撤回，也可在系统设置中
-  重置或删除广告 ID。</p>
-  <h2>4. 权限</h2>
-  <p>应用只申请 <code>INTERNET</code> 与 <code>ACCESS_NETWORK_STATE</code>
-  供广告 SDK 使用；不申请相机、麦克风、通讯录、定位或存储权限。</p>
-  <h2>5. 共享、保留与联系</h2>
-  <p>我们不会出售你的数据。本机数据保留到你主动删除、清除应用数据或卸载应用。
-  联系：<a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>。</p>
+  <h2>隐私政策（简体中文）</h2>
+  <p class="meta">科学工程计算器 · 包名 <code>com.drylu_ian.FormulaKit</code> · 生效日期 2026-11-10</p>
+  <ol>
+    <li>本应用是本地科学计算器。公式、参数、计算历史、表格与设置只保存在本机应用私有内部存储（<code>scicalc-data.json</code>）。不提供账号、登录、云同步、剪贴板读写，也不提供公式的文件导入导出。</li>
+    <li>为展示广告，应用集成 Google AdMob SDK。该 SDK 可能收集广告 ID 等设备标识符、IP 地址与大致位置、网络状态、广告展示与点击数据。上述信息用于广告投放、频次控制、效果测量与防欺诈，不会用于识别你的计算内容。</li>
+    <li>在要求取得同意的地区（欧洲经济区、英国、瑞士），首次启动会显示 Google UMP 同意表单。你可以随时通过侧栏的「广告隐私设置」查看或撤回同意。拒绝后不会加载个性化广告；在法律允许时仍可能请求非个性化广告。</li>
+    <li>应用不会上传你的公式、参数、历史、表格或设置。</li>
+    <li><strong>权限：</strong>仅申请 <code>INTERNET</code> 与 <code>ACCESS_NETWORK_STATE</code>，用于广告。任何 Android 版本都<strong>不申请存储权限</strong>。</li>
+    <li><strong>存储位置与备份：</strong>Android 10 及以上通过 <code>MediaStore.Downloads</code> 把备份 zip 写入系统 <code>Download/SciCalc</code> 目录，无需存储权限；Android 9 及以下写入应用专属外部目录 <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>。备份文件不会上传。Android 10 及以上卸载应用后文件仍保留，重装后可在「备份与恢复」中通过「从文件选择」用系统文件选择器重新打开（只读取你选中的文件）。Android 9 及以下的备份随应用一起删除。你可以随时在系统文件管理器中删除备份文件。</li>
+    <li><strong>删除：</strong>卸载应用会删除应用私有存储中的数据。备份 zip 是受你控制的普通文件，除你主动删除外，应用不会删除它们。</li>
+    <li><strong>联系：</strong><a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>。本政策如有实质变更，会在本页更新并标注新的生效日期。</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= 한국어 ================= -->
+<!-- ============================= 한국어 ============================= -->
 <section id="ko" lang="ko">
-  <h1>개인정보 처리방침</h1>
-  <p class="meta">
-    과학 엔지니어링 계산기 (패키지
-    <code>com.drylu_ian.science_engineering_calculator</code>)<br>
-    시행일: 2026년 11월 10일
-  </p>
-  <h2>1. 기기 내 데이터</h2>
-  <p>수식, 방정식, 계산 체인, 분류, 표 내용, 매개변수, 기록과 설정은 앱의
-  비공개 저장소(<code>files/scicalc-data.json</code>)에만 저장됩니다. 서버가
-  없고 계정이 필요하지 않으며 계산 내용을 업로드하거나 읽지 않습니다.</p>
-  <h2>2. 백업과 복원</h2>
-  <p>사이드 메뉴에서 zip 백업을 만들 수 있으며 다음 위치에 저장됩니다:</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>앱은 저장소 권한을 요청하지 않고 백업을 업로드하지 않으며 다른 앱의 파일을
-  읽지 않습니다. 앱을 삭제하면 백업도 함께 삭제됩니다.</p>
-  <h2>3. 광고</h2>
-  <p>앱은 <strong>Google AdMob SDK</strong>를 사용해 사이드 메뉴, 즐겨찾기를
-  제외한 홈 탭, 계산 페이지, 기록 페이지 하단에 적응형 배너 광고를 표시합니다.
-  AdMob은 광고 ID 등 기기 식별자, IP 주소와 대략적 위치, 네트워크 상태, 광고
-  노출·클릭 정보를 수집할 수 있으며 이는 광고 게재, 빈도 제한, 측정, 부정 방지에
-  사용됩니다. 계산 내용을 식별하는 데 사용되지 않습니다. 자세한 내용은
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Google 개인정보처리방침</a>을 참고하세요.</p>
-  <p>필요한 경우 Google UMP를 통해 동의를 요청하며(유럽경제지역 포함), 맞춤
-  광고를 거부하면 맞춤 광고를 불러오지 않습니다. 앱의 광고 개인정보 설정에서
-  언제든지 변경·철회할 수 있고 시스템 설정에서 광고 ID를 재설정하거나 삭제할 수
-  있습니다.</p>
-  <h2>4. 권한</h2>
-  <p>광고 SDK를 위해 <code>INTERNET</code>과
-  <code>ACCESS_NETWORK_STATE</code>만 요청하며 카메라, 마이크, 연락처, 위치,
-  저장소 권한은 요청하지 않습니다.</p>
-  <h2>5. 공유·보관·문의</h2>
-  <p>데이터를 판매하지 않습니다. 기기 내 데이터는 직접 삭제, 앱 데이터 지우기
-  또는 앱 삭제 전까지 유지됩니다. 문의:
-  <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>.</p>
+  <h2>개인정보 처리방침 (한국어)</h2>
+  <p class="meta">과학 공학 계산기 · 패키지 <code>com.drylu_ian.FormulaKit</code> · 시행일 2026-11-10</p>
+  <ol>
+    <li>이 앱은 기기에서 동작하는 과학 계산기입니다. 수식, 매개변수, 계산 기록, 표, 설정은 앱의 비공개 내부 저장소(<code>scicalc-data.json</code>)에만 저장됩니다. 계정, 로그인, 클라우드 동기화, 클립보드 접근, 수식 파일 가져오기/내보내기는 제공하지 않습니다.</li>
+    <li>광고 표시를 위해 Google AdMob SDK를 사용합니다. 이 SDK는 광고 ID 등 기기 식별자, IP 주소와 대략적 위치, 네트워크 상태, 광고 노출·클릭 정보를 수집할 수 있습니다. 이 정보는 광고 게재, 빈도 제한, 측정, 부정 방지에 사용되며 계산 내용을 식별하는 데 사용되지 않습니다.</li>
+    <li>동의가 필요한 지역(유럽경제지역, 영국, 스위스)에서는 첫 실행 시 Google UMP 동의 양식이 표시됩니다. 앱 사이드 메뉴의 <em>광고 개인정보 설정</em>에서 언제든지 동의를 확인하거나 철회할 수 있습니다. 동의를 거부하면 맞춤 광고를 불러오지 않으며, 법이 허용하는 경우 비맞춤 광고를 요청할 수 있습니다.</li>
+    <li>앱은 수식, 매개변수, 기록, 표, 설정을 업로드하지 않습니다.</li>
+    <li><strong>권한:</strong> 광고용 <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>만 사용합니다. 모든 Android 버전에서 <strong>저장소 권한을 요청하지 않습니다</strong>.</li>
+    <li><strong>저장 위치 및 백업:</strong> Android 10 이상에서는 <code>MediaStore.Downloads</code>를 통해 백업 zip을 시스템 <code>Download/SciCalc</code> 폴더에 저장하며 저장소 권한이 필요 없습니다. Android 9 이하에서는 앱 전용 외부 폴더 <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>에 저장합니다. 백업 파일은 업로드되지 않습니다. Android 10 이상에서는 앱을 삭제해도 파일이 남아 있으며, 재설치 후 <em>백업 및 복원</em>의 <em>파일 선택</em>으로 시스템 파일 선택기를 통해 다시 열 수 있습니다(선택한 파일만 읽음). Android 9 이하의 백업은 앱과 함께 삭제됩니다. 시스템 파일 관리자에서 언제든지 삭제할 수 있습니다.</li>
+    <li><strong>삭제:</strong> 앱을 삭제하면 비공개 저장소의 데이터가 삭제됩니다. 백업 zip은 사용자가 관리하는 일반 파일이며, 사용자가 직접 삭제하지 않는 한 앱이 삭제하지 않습니다.</li>
+    <li><strong>문의:</strong> <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>. 정책이 실질적으로 변경되면 이 페이지에 새 시행일과 함께 게시합니다.</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= Español ================= -->
+<!-- ============================= Español ============================= -->
 <section id="es" lang="es">
-  <h1>Política de privacidad</h1>
-  <p class="meta">
-    Calculadora científica y de ingeniería (paquete
-    <code>com.drylu_ian.science_engineering_calculator</code>)<br>
-    Fecha de entrada en vigor: 10 de noviembre de 2026
-  </p>
-  <h2>1. Datos locales</h2>
-  <p>Las fórmulas, ecuaciones, cadenas de cálculo, categorías, tablas, parámetros,
-  historial y ajustes se guardan en el almacenamiento privado de la app
-  (<code>files/scicalc-data.json</code>). No tenemos servidor, no se requiere
-  cuenta y no subimos ni leemos el contenido de tus cálculos.</p>
-  <h2>2. Copia y restauración</h2>
-  <p>Puedes crear una copia zip desde el menú lateral; se guarda en:</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>La app no solicita permiso de almacenamiento, no sube las copias y no lee
-  archivos de otras apps. Las copias se eliminan al desinstalar la app.</p>
-  <h2>3. Publicidad</h2>
-  <p>La app usa el <strong>SDK de Google AdMob</strong> para mostrar banners
-  adaptables en la parte inferior del menú lateral, las pestañas de inicio
-  excepto Favoritos, las páginas de cálculo y el historial. AdMob puede recoger
-  el ID de publicidad y otros identificadores, la IP y ubicación aproximada, el
-  estado de la red y datos de impresiones/clics para publicar anuncios, limitar
-  la frecuencia, medir resultados y prevenir fraudes. No se usa para identificar
-  tus cálculos. Consulta la
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Política de Privacidad de Google</a>.</p>
-  <p>Cuando es necesario se solicita consentimiento mediante Google UMP,
-  incluido el EEE. Si se rechazan los anuncios personalizados, no se cargan.
-  Puedes cambiar o retirar el consentimiento en los ajustes de privacidad de
-  anuncios de la app o restablecer/eliminar el ID de publicidad en el sistema.</p>
-  <h2>4. Permisos</h2>
-  <p>Solo se solicitan <code>INTERNET</code> y
-  <code>ACCESS_NETWORK_STATE</code> para el SDK de anuncios; no se solicitan
-  cámara, micrófono, contactos, ubicación ni almacenamiento.</p>
-  <h2>5. Compartición, conservación y contacto</h2>
-  <p>No vendemos tus datos. Los datos locales permanecen hasta que los borres,
-  borres los datos de la app o la desinstales. Contacto:
-  <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>.</p>
+  <h2>Política de privacidad (Español)</h2>
+  <p class="meta">Calculadora científica y de ingeniería · Paquete <code>com.drylu_ian.FormulaKit</code> · Vigente desde 2026-11-10</p>
+  <ol>
+    <li>Esta app es una calculadora científica local. Las fórmulas, parámetros, historial de cálculos, tablas y ajustes se guardan solo en este dispositivo, en el almacenamiento interno privado de la app (<code>scicalc-data.json</code>). No hay cuentas, inicio de sesión, sincronización en la nube, acceso al portapapeles ni importación/exportación de fórmulas.</li>
+    <li>Para mostrar anuncios se integra el SDK de Google AdMob. Puede recoger el ID de publicidad y otros identificadores del dispositivo, la dirección IP y la ubicación aproximada, el estado de la red y datos de impresiones y clics. Estos datos se usan para mostrar anuncios, limitar la frecuencia, medir resultados y prevenir fraudes, y no para identificar el contenido de tus cálculos.</li>
+    <li>Donde se exige consentimiento (EEE, Reino Unido, Suiza), el formulario de Google UMP aparece en el primer inicio. Puedes revisar o retirar el consentimiento en cualquier momento desde <em>Ajustes de privacidad de anuncios</em> en el menú lateral. Si lo rechazas, no se cargan anuncios personalizados; aún pueden solicitarse anuncios no personalizados cuando la ley lo permita.</li>
+    <li>La app no sube tus fórmulas, parámetros, historial, tablas ni ajustes.</li>
+    <li><strong>Permisos:</strong> solo <code>INTERNET</code> y <code>ACCESS_NETWORK_STATE</code>, para anuncios. La app <strong>no solicita permiso de almacenamiento</strong> en ninguna versión de Android.</li>
+    <li><strong>Ubicación y copias:</strong> en Android 10 o posterior, el zip de copia se escribe en la carpeta del sistema <code>Download/SciCalc</code> mediante <code>MediaStore.Downloads</code>, sin permiso de almacenamiento. En Android 9 o anterior se guarda en la carpeta externa propia de la app <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>. Los archivos nunca se suben. En Android 10 o posterior permanecen tras desinstalar la app y pueden abrirse al reinstalarla con <em>Elegir archivo</em> en <em>Copia y restauración</em>, usando el selector del sistema (solo se lee el archivo que elijas). En Android 9 o anterior las copias se eliminan con la app. Puedes borrarlas en cualquier momento desde el gestor de archivos.</li>
+    <li><strong>Eliminación:</strong> desinstalar la app borra los datos de su almacenamiento privado. Los zip de copia son archivos bajo tu control y la app no los borra salvo que tú lo hagas.</li>
+    <li><strong>Contacto:</strong> <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>. Los cambios sustanciales se publicarán en esta página con una nueva fecha de vigencia.</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= 日本語 ================= -->
+<!-- ============================= 日本語 ============================= -->
 <section id="ja" lang="ja">
-  <h1>プライバシーポリシー</h1>
-  <p class="meta">
-    科学技術計算機（パッケージ
-    <code>com.drylu_ian.science_engineering_calculator</code>）<br>
-    発効日：2026年11月10日
-  </p>
-  <h2>1. 端末内のデータ</h2>
-  <p>数式、方程式、計算チェーン、分類、表の内容、パラメータ、履歴、設定は
-  アプリの非公開ストレージ（<code>files/scicalc-data.json</code>）にのみ保存
-  されます。サーバーはなく、アカウントも不要で、計算内容をアップロードしたり
-  読み取ったりしません。</p>
-  <h2>2. バックアップと復元</h2>
-  <p>サイドメニューから zip バックアップを作成できます。保存先：</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>ストレージ権限は要求せず、バックアップをアップロードせず、他のアプリの
-  ファイルも読みません。アプリを削除するとバックアップも削除されます。</p>
-  <h2>3. 広告</h2>
-  <p>本アプリは <strong>Google AdMob SDK</strong> を使用し、サイドメニュー、
-  お気に入り以外のホームタブ、計算ページ、履歴ページの下部にアダプティブ
-  バナー広告を表示します。AdMob は広告 ID などの端末識別子、IP アドレスと
-  おおよその位置、ネットワーク状態、広告の表示・クリック情報を収集する場合が
-  あり、広告配信、頻度制御、測定、不正防止に使用されます。計算内容の識別には
-  使用されません。詳細は
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Google プライバシー ポリシー</a>をご覧ください。</p>
-  <p>必要な場合（欧州経済領域を含む）は Google UMP で同意を求めます。
-  パーソナライズ広告を拒否した場合、パーソナライズ広告は読み込まれません。
-  アプリ内の広告プライバシー設定で変更・撤回でき、端末設定で広告 ID を
-  リセットまたは削除できます。</p>
-  <h2>4. 権限</h2>
-  <p>広告 SDK のために <code>INTERNET</code> と
-  <code>ACCESS_NETWORK_STATE</code> のみを要求します。カメラ、マイク、
-  連絡先、位置情報、ストレージ権限は要求しません。</p>
-  <h2>5. 共有・保存・連絡先</h2>
-  <p>データを販売しません。端末内データは、ご自身で削除するか、アプリの
-  データを消去するか、アプリを削除するまで保持されます。連絡先：
-  <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>。</p>
+  <h2>プライバシーポリシー（日本語）</h2>
+  <p class="meta">科学技術計算機 · パッケージ <code>com.drylu_ian.FormulaKit</code> · 施行日 2026-11-10</p>
+  <ol>
+    <li>本アプリは端末内で動作する科学計算機です。数式、パラメータ、計算履歴、表、設定はアプリの非公開内部ストレージ（<code>scicalc-data.json</code>）にのみ保存されます。アカウント、ログイン、クラウド同期、クリップボードへのアクセス、数式のファイル入出力は提供しません。</li>
+    <li>広告表示のため Google AdMob SDK を組み込んでいます。同 SDK は広告 ID などの端末識別子、IP アドレスとおおよその位置、ネットワーク状態、広告の表示・クリック情報を収集する場合があります。これらの情報は広告配信、頻度制御、効果測定、不正防止に使用され、計算内容の識別には使用されません。</li>
+    <li>同意が必要な地域（欧州経済領域、英国、スイス）では、初回起動時に Google UMP の同意フォームが表示されます。サイドメニューの「広告のプライバシー設定」からいつでも確認・撤回できます。拒否した場合、パーソナライズ広告は読み込まれません。法令が許す範囲で非パーソナライズ広告を要求する場合があります。</li>
+    <li>本アプリは数式、パラメータ、履歴、表、設定をアップロードしません。</li>
+    <li><strong>権限：</strong>広告用の <code>INTERNET</code> と <code>ACCESS_NETWORK_STATE</code> のみです。すべての Android バージョンで<strong>ストレージ権限を要求しません</strong>。</li>
+    <li><strong>保存場所とバックアップ：</strong>Android 10 以降では <code>MediaStore.Downloads</code> によりバックアップ zip をシステムの <code>Download/SciCalc</code> フォルダーへ書き込みます（ストレージ権限不要）。Android 9 以前ではアプリ専用外部フォルダー <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code> に保存します。バックアップはアップロードされません。Android 10 以降ではアプリを削除してもファイルが残り、再インストール後に「バックアップと復元」の「ファイルを選択」からシステムのファイル選択画面で開けます（選択したファイルのみ読み取り）。Android 9 以前のバックアップはアプリと共に削除されます。端末のファイル管理アプリからいつでも削除できます。</li>
+    <li><strong>削除：</strong>アプリを削除すると非公開ストレージのデータが削除されます。バックアップ zip は利用者が管理する通常のファイルであり、利用者が削除しない限りアプリが削除することはありません。</li>
+    <li><strong>連絡先：</strong><a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>。重要な変更は本ページに新しい施行日と共に掲載します。</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= Русский ================= -->
+<!-- ============================= Русский ============================= -->
 <section id="ru" lang="ru">
-  <h1>Политика конфиденциальности</h1>
-  <p class="meta">
-    Научно-инженерный калькулятор (пакет
-    <code>com.drylu_ian.science_engineering_calculator</code>)<br>
-    Дата вступления в силу: 10 ноября 2026 г.
-  </p>
-  <h2>1. Локальные данные</h2>
-  <p>Формулы, уравнения, цепочки расчётов, категории, таблицы, параметры,
-  история и настройки хранятся в приватном хранилище приложения
-  (<code>files/scicalc-data.json</code>). У нас нет сервера, учётная запись не
-  требуется, содержимое расчётов не загружается и не читается.</p>
-  <h2>2. Резервное копирование</h2>
-  <p>В боковом меню можно создать zip-копию; она сохраняется в:</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>Приложение не запрашивает доступ к хранилищу, не загружает копии и не
-  читает файлы других приложений. Копии удаляются вместе с приложением.</p>
-  <h2>3. Реклама</h2>
-  <p>Приложение использует <strong>Google AdMob SDK</strong> для показа
-  адаптивных баннеров внизу бокового меню, вкладок главного экрана (кроме
-  избранного), страниц расчётов и истории. AdMob может собирать рекламный
-  идентификатор и другие идентификаторы устройства, IP-адрес и приблизительное
-  местоположение, состояние сети, данные о показах и кликах для показа рекламы,
-  ограничения частоты, измерения и предотвращения мошенничества. Мы не
-  используем их для идентификации ваших расчётов. См.
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Политику конфиденциальности Google</a>.</p>
-  <p>Где требуется, согласие запрашивается через Google UMP (включая ЕЭЗ).
-  При отказе от персонализированной рекламы она не загружается. Согласие можно
-  изменить или отозвать в настройках конфиденциальности рекламы в приложении,
-  а рекламный идентификатор — сбросить или удалить в настройках системы.</p>
-  <h2>4. Разрешения</h2>
-  <p>Запрашиваются только <code>INTERNET</code> и
-  <code>ACCESS_NETWORK_STATE</code> для рекламного SDK; камера, микрофон,
-  контакты, геолокация и хранилище не запрашиваются.</p>
-  <h2>5. Передача, хранение и контакты</h2>
-  <p>Мы не продаём данные. Локальные данные хранятся, пока вы их не удалите,
-  не очистите данные приложения или не удалите приложение. Контакт:
-  <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>.</p>
+  <h2>Политика конфиденциальности (Русский)</h2>
+  <p class="meta">Научный инженерный калькулятор · Пакет <code>com.drylu_ian.FormulaKit</code> · Действует с 2026-11-10</p>
+  <ol>
+    <li>Это локальный научный калькулятор. Формулы, параметры, история вычислений, таблицы и настройки хранятся только на устройстве, во внутреннем приватном хранилище приложения (<code>scicalc-data.json</code>). Учётные записи, вход, облачная синхронизация, доступ к буферу обмена и импорт/экспорт формул не предоставляются.</li>
+    <li>Для показа рекламы используется Google AdMob SDK. Он может собирать рекламный идентификатор и другие идентификаторы устройства, IP-адрес и приблизительное местоположение, состояние сети, данные о показах и кликах. Эти данные используются для показа рекламы, ограничения частоты, измерения и предотвращения мошенничества и не используются для идентификации ваших расчётов.</li>
+    <li>Там, где требуется согласие (ЕЭЗ, Великобритания, Швейцария), при первом запуске появляется форма согласия Google UMP. Согласие можно проверить или отозвать в любое время в разделе «Настройки конфиденциальности рекламы» бокового меню. При отказе персонализированная реклама не загружается; неперсонализированная реклама может запрашиваться, если это разрешено законом.</li>
+    <li>Приложение не загружает формулы, параметры, историю, таблицы или настройки.</li>
+    <li><strong>Разрешения:</strong> только <code>INTERNET</code> и <code>ACCESS_NETWORK_STATE</code> для рекламы. Приложение <strong>не запрашивает разрешение на доступ к хранилищу</strong> ни в одной версии Android.</li>
+    <li><strong>Место хранения и резервные копии:</strong> в Android 10 и новее zip-копия записывается в системную папку <code>Download/SciCalc</code> через <code>MediaStore.Downloads</code> без разрешения на хранилище. В Android 9 и старше — в собственную внешнюю папку приложения <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>. Файлы никогда не загружаются. В Android 10 и новее они остаются после удаления приложения и открываются после переустановки через «Выбрать файл» в «Резервное копирование и восстановление» системным файловым менеджером (читается только выбранный файл). В Android 9 и старше копии удаляются вместе с приложением. Удалить их можно в любое время в файловом менеджере.</li>
+    <li><strong>Удаление:</strong> удаление приложения стирает данные в приватном хранилище. Zip-копии — обычные файлы под вашим контролем; приложение не удаляет их без вашего действия.</li>
+    <li><strong>Контакт:</strong> <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>. Существенные изменения будут опубликованы на этой странице с новой датой вступления в силу.</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= Français ================= -->
+<!-- ============================= Français ============================= -->
 <section id="fr" lang="fr">
-  <h1>Politique de confidentialité</h1>
-  <p class="meta">
-    Calculatrice scientifique et d'ingénierie (paquet
-    <code>com.drylu_ian.science_engineering_calculator</code>)<br>
-    Date d'entrée en vigueur : 10 novembre 2026
-  </p>
-  <h2>1. Données locales</h2>
-  <p>Les formules, équations, chaînes de calcul, catégories, tableaux,
-  paramètres, historiques et réglages sont stockés dans le stockage privé de
-  l'application (<code>files/scicalc-data.json</code>). Nous n'avons pas de
-  serveur, aucun compte n'est requis et le contenu de vos calculs n'est ni
-  téléversé ni lu.</p>
-  <h2>2. Sauvegarde et restauration</h2>
-  <p>Vous pouvez créer une sauvegarde zip depuis le menu latéral ; elle est
-  écrite dans :</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>L'application ne demande pas d'accès au stockage, ne téléverse pas les
-  sauvegardes et ne lit pas les fichiers d'autres applications. Les sauvegardes
-  sont supprimées avec l'application.</p>
-  <h2>3. Publicité</h2>
-  <p>L'application utilise le <strong>SDK Google AdMob</strong> pour afficher des
-  bannières adaptatives en bas du menu latéral, des onglets d'accueil sauf
-  Favoris, des pages de calcul et de l'historique. AdMob peut collecter
-  l'identifiant publicitaire et d'autres identifiants, l'adresse IP et la
-  localisation approximative, l'état du réseau et les données d'impressions et
-  de clics pour diffuser les annonces, limiter la fréquence, mesurer les
-  résultats et prévenir la fraude. Nous ne les utilisons pas pour identifier vos
-  calculs. Voir la
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  politique de confidentialité de Google</a>.</p>
-  <p>Lorsque cela est requis, le consentement est demandé via Google UMP, y
-  compris dans l'EEE. En cas de refus des annonces personnalisées, elles ne sont
-  pas chargées. Vous pouvez modifier ou retirer votre consentement dans les
-  réglages de confidentialité des annonces, ou réinitialiser/supprimer
-  l'identifiant publicitaire dans les réglages du système.</p>
-  <h2>4. Autorisations</h2>
-  <p>Seuls <code>INTERNET</code> et <code>ACCESS_NETWORK_STATE</code> sont
-  demandés pour le SDK publicitaire ; ni caméra, ni micro, ni contacts, ni
-  localisation, ni stockage.</p>
-  <h2>5. Partage, conservation et contact</h2>
-  <p>Nous ne vendons pas vos données. Les données locales restent jusqu'à leur
-  suppression, l'effacement des données de l'application ou sa désinstallation.
-  Contact : <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>.</p>
+  <h2>Politique de confidentialité (Français)</h2>
+  <p class="meta">Calculatrice scientifique et d'ingénierie · Paquet <code>com.drylu_ian.FormulaKit</code> · En vigueur le 2026-11-10</p>
+  <ol>
+    <li>Cette application est une calculatrice scientifique locale. Les formules, paramètres, historiques de calcul, tableaux et réglages restent sur cet appareil, dans le stockage interne privé de l'application (<code>scicalc-data.json</code>). Aucun compte, connexion, synchronisation cloud, accès au presse-papiers ni import/export de formules n'est fourni.</li>
+    <li>Pour afficher des publicités, l'application intègre le SDK Google AdMob. Il peut collecter l'identifiant publicitaire et d'autres identifiants de l'appareil, l'adresse IP et la localisation approximative, l'état du réseau ainsi que les données d'impression et de clic. Ces données servent à diffuser les annonces, limiter la fréquence, mesurer les résultats et prévenir la fraude, et ne servent pas à identifier le contenu de vos calculs.</li>
+    <li>Là où un consentement est requis (EEE, Royaume-Uni, Suisse), le formulaire Google UMP s'affiche au premier lancement. Vous pouvez consulter ou retirer votre consentement à tout moment via <em>Paramètres de confidentialité des annonces</em> dans le menu latéral. En cas de refus, aucune annonce personnalisée n'est chargée ; des annonces non personnalisées peuvent encore être demandées lorsque la loi le permet.</li>
+    <li>L'application ne téléverse ni formules, ni paramètres, ni historiques, ni tableaux, ni réglages.</li>
+    <li><strong>Autorisations :</strong> uniquement <code>INTERNET</code> et <code>ACCESS_NETWORK_STATE</code>, pour la publicité. L'application <strong>ne demande aucune autorisation de stockage</strong>, quelle que soit la version d'Android.</li>
+    <li><strong>Emplacement et sauvegardes :</strong> à partir d'Android 10, le zip de sauvegarde est écrit dans le dossier système <code>Download/SciCalc</code> via <code>MediaStore.Downloads</code>, sans autorisation de stockage. Sous Android 9 et antérieur, il va dans le dossier externe propre à l'application <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>. Les fichiers ne sont jamais téléversés. À partir d'Android 10, ils restent après la désinstallation et peuvent être rouverts après réinstallation via <em>Choisir un fichier</em> dans <em>Sauvegarde et restauration</em>, avec le sélecteur du système (seul le fichier choisi est lu). Sous Android 9 et antérieur, les sauvegardes sont supprimées avec l'application. Vous pouvez les supprimer à tout moment dans le gestionnaire de fichiers.</li>
+    <li><strong>Suppression :</strong> désinstaller l'application efface les données de son stockage privé. Les zips de sauvegarde sont des fichiers sous votre contrôle ; l'application ne les supprime pas sans votre action.</li>
+    <li><strong>Contact :</strong> <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>. Les changements substantiels seront publiés sur cette page avec une nouvelle date d'entrée en vigueur.</li>
+  </ol>
 </section>
 
-<hr>
-
-<!-- ================= Deutsch ================= -->
+<!-- ============================= Deutsch ============================= -->
 <section id="de" lang="de">
-  <h1>Datenschutzerklärung</h1>
-  <p class="meta">
-    Wissenschaftlicher und technischer Rechner (Paket
-    <code>com.drylu_ian.science_engineering_calculator</code>)<br>
-    Gültig ab: 10. November 2026
-  </p>
-  <h2>1. Lokale Daten</h2>
-  <p>Formeln, Gleichungen, Rechenketten, Kategorien, Tabellen, Parameter,
-  Verlauf und Einstellungen werden im privaten Speicher der App gespeichert
-  (<code>files/scicalc-data.json</code>). Es gibt keinen Server, kein Konto ist
-  erforderlich, und Ihre Berechnungen werden nicht hochgeladen oder gelesen.</p>
-  <h2>2. Sichern und Wiederherstellen</h2>
-  <p>Im Seitenmenü kann eine Zip-Sicherung erstellt werden; sie wird gespeichert
-  unter:</p>
-  <p><code>Android/data/com.drylu_ian.science_engineering_calculator/files/backups</code></p>
-  <p>Die App fordert keine Speicherberechtigung an, lädt keine Sicherungen hoch
-  und liest keine Dateien anderer Apps. Sicherungen werden mit der App gelöscht.</p>
-  <h2>3. Werbung</h2>
-  <p>Die App verwendet das <strong>Google AdMob SDK</strong> für adaptive Banner
-  unten im Seitenmenü, in den Startseiten-Tabs außer Favoriten, auf
-  Berechnungsseiten und im Verlauf. AdMob kann die Werbe-ID und andere
-  Gerätekennungen, IP-Adresse und ungefähren Standort, Netzwerkstatus sowie
-  Impressions- und Klickdaten erfassen, um Werbung auszuliefern, die Frequenz zu
-  begrenzen, Ergebnisse zu messen und Betrug zu verhindern. Wir nutzen dies
-  nicht zur Identifizierung Ihrer Berechnungen. Siehe
-  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-  Google-Datenschutzerklärung</a>.</p>
-  <p>Soweit erforderlich, wird die Einwilligung über Google UMP eingeholt (auch
-  im EWR). Bei Ablehnung personalisierter Werbung wird diese nicht geladen. Die
-  Einwilligung kann in den Werbe-Datenschutzeinstellungen der App geändert oder
-  widerrufen werden; die Werbe-ID kann in den Systemeinstellungen zurückgesetzt
-  oder gelöscht werden.</p>
-  <h2>4. Berechtigungen</h2>
-  <p>Für das Werbe-SDK werden nur <code>INTERNET</code> und
-  <code>ACCESS_NETWORK_STATE</code> angefordert; keine Kamera, kein Mikrofon,
-  keine Kontakte, kein Standort und kein Speicher.</p>
-  <h2>5. Weitergabe, Aufbewahrung und Kontakt</h2>
-  <p>Wir verkaufen keine Daten. Lokale Daten bleiben, bis Sie sie löschen, die
-  App-Daten löschen oder die App deinstallieren. Kontakt:
-  <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>.</p>
+  <h2>Datenschutzerklärung (Deutsch)</h2>
+  <p class="meta">Wissenschaftlicher Ingenieurrechner · Paket <code>com.drylu_ian.FormulaKit</code> · Gültig ab 2026-11-10</p>
+  <ol>
+    <li>Diese App ist ein lokaler wissenschaftlicher Taschenrechner. Formeln, Parameter, Berechnungsverlauf, Tabellen und Einstellungen werden ausschließlich auf diesem Gerät im privaten internen Speicher der App (<code>scicalc-data.json</code>) gespeichert. Es gibt keine Konten, Anmeldung, Cloud-Synchronisierung, Zwischenablage-Nutzung oder Formel-Import/-Export.</li>
+    <li>Zur Anzeige von Werbung ist das Google AdMob SDK eingebunden. Es kann die Werbe-ID und andere Gerätekennungen, IP-Adresse und ungefähren Standort, Netzwerkstatus sowie Impressions- und Klickdaten erfassen. Diese Daten dienen der Auslieferung von Werbung, der Frequenzbegrenzung, der Messung und der Betrugsprävention; sie werden nicht zur Identifizierung Ihrer Berechnungen verwendet.</li>
+    <li>Wo eine Einwilligung erforderlich ist (EWR, Vereinigtes Königreich, Schweiz), erscheint beim ersten Start das Google-UMP-Formular. Sie können die Einwilligung jederzeit über <em>Datenschutzeinstellungen für Werbung</em> im Seitenmenü prüfen oder widerrufen. Bei Ablehnung werden keine personalisierten Anzeigen geladen; nicht personalisierte Anzeigen können weiterhin angefragt werden, soweit gesetzlich erlaubt.</li>
+    <li>Die App lädt keine Formeln, Parameter, Verläufe, Tabellen oder Einstellungen hoch.</li>
+    <li><strong>Berechtigungen:</strong> nur <code>INTERNET</code> und <code>ACCESS_NETWORK_STATE</code> für Werbung. Die App fordert in keiner Android-Version eine <strong>Speicherberechtigung</strong> an.</li>
+    <li><strong>Speicherort und Sicherungen:</strong> Ab Android 10 wird die Sicherungs-Zip über <code>MediaStore.Downloads</code> im Systemordner <code>Download/SciCalc</code> abgelegt – ohne Speicherberechtigung. Unter Android 9 und älter landet sie im app-eigenen externen Ordner <code>Android/data/com.drylu_ian.FormulaKit/files/backups</code>. Die Dateien werden nie hochgeladen. Ab Android 10 bleiben sie nach der Deinstallation erhalten und lassen sich nach einer Neuinstallation über <em>Datei wählen</em> unter <em>Sichern und Wiederherstellen</em> mit dem System-Dateiauswähler erneut öffnen (nur die gewählte Datei wird gelesen). Unter Android 9 und älter werden Sicherungen mit der App gelöscht. Sie können sie jederzeit im Dateimanager löschen.</li>
+    <li><strong>Löschung:</strong> Die Deinstallation löscht alle Daten im privaten Speicher. Sicherungs-Zips sind Dateien unter Ihrer Kontrolle; die App löscht sie nicht ohne Ihr Zutun.</li>
+    <li><strong>Kontakt:</strong> <a href="mailto:drylu123@gmail.com">drylu123@gmail.com</a>. Wesentliche Änderungen werden auf dieser Seite mit neuem Gültigkeitsdatum veröffentlicht.</li>
+  </ol>
 </section>
 
-</main>
+<footer>
+  © 2026 Scientific &amp; Engineering Calculator · <code>com.drylu_ian.FormulaKit</code>
+</footer>
+
+</div>
 </body>
 </html>
